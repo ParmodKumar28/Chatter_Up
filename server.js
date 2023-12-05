@@ -19,7 +19,7 @@ const io = new Server(server, {
 });
 
 // Serve your index.html file
-app.use(express.static(path.join(__dirname, '.')));
+app.use(express.static(path.resolve()));
 
 let usersCount = 0;
 const users = [];

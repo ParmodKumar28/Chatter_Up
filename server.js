@@ -3,6 +3,7 @@ import http from 'http';
 import cors from 'cors';
 import { Server } from 'socket.io';
 import ChatModel from './chats.schema.js';
+import path from 'path';
 
 const app = express();
 
